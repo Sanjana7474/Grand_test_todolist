@@ -1,0 +1,34 @@
+.app {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #dddfe4;
+}
+
+.container {
+  width: 400px;
+  background: rgb(189, 140, 140);
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.filters {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+
+.filters button {
+  flex: 1;
+  padding: 8px;
+  border: none;
+  background: #505d78;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.activeBtn {
+  background: #d3d3e1;
+  color: rgb(252, 186, 186);
+}

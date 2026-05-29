@@ -1,0 +1,36 @@
+.todo {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background: #8bbced;
+  border-radius: 8px;
+  margin-top: 10px;
+  align-items: center;
+}
+
+.todo span {
+  cursor: pointer;
+}
+
+.todo.completed span {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
+.todo button {
+  margin-left: 5px;
+  padding: 5px 8px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.todo button:first-child {
+  background: #8cafe9;
+  color: rgb(24, 0, 0);
+}
+
+.todo button:last-child {
+  background: lightcoral;
+  color: blue(248, 200, 200);
+}

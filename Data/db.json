@@ -1,0 +1,25 @@
+{
+  "todos": [
+    {
+      "text": "Flask",
+      "completed": false,
+      "id": "kMnZ5A6yS9s"
+    },
+    {
+      "text": "project",
+      "completed": false,
+      "id": "7zvH1lrTosc"
+    },
+    {
+      "text": "Python",
+      "completed": false,
+      "id": "FWlANSUhX94"
+    },
+    {
+      "text": "Mysql",
+      "completed": false,
+      "id": "7bIgUTgo-T8"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
