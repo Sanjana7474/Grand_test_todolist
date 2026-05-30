@@ -6,9 +6,6 @@ function TodoForm({ addTodo }) {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-
-    if (!input.trim()) return;
-
     addTodo(input);
     setInput("");
   };
@@ -20,7 +17,7 @@ function TodoForm({ addTodo }) {
         onChange={(e) => setInput(e.target.value)}
         placeholder="Enter task..."
       />
-      <button type="submit">Add</button>
+      <button>Add</button>
     </form>
   );
 }

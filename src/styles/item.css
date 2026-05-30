@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   padding: 10px;
-  background: #8bbced;
+  background: #f9fafb;
   border-radius: 8px;
   margin-top: 10px;
   align-items: center;
@@ -26,11 +26,11 @@
 }
 
 .todo button:first-child {
-  background: #8cafe9;
-  color: rgb(24, 0, 0);
+  background: #3b82f6;
+  color: white;
 }
 
 .todo button:last-child {
-  background: lightcoral;
-  color: blue(248, 200, 200);
+  background: #ef4444;
+  color: white;
 }

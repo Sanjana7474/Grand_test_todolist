@@ -8,13 +8,13 @@
   flex: 1;
   padding: 10px;
   border-radius: 8px;
-  border: 1px solid #d51111;
+  border: 1px solid #ccc;
 }
 
 .form button {
   padding: 10px;
-  background: #667fc8;
-  color: rgb(220, 158, 158);
+  background: #6366f1;
+  color: white;
   border: none;
   border-radius: 8px;
   cursor: pointer;
